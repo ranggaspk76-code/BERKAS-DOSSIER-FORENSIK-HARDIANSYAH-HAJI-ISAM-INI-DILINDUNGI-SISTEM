@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOSSIER FORENSIK DANA HIBAH PT MASMINDO DWI AREA LUWU (RP 67 MILIAR)</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card-bg: #111d35;
+      --border: #1e293b;
+      --gold: #f59e0b;
+      --red: #ef4444;
+      --emerald: #10b981;
+      --cyan: #06b6d4;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 30px;
+      margin: 0;
+    }
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-red { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
+    .badge-gold { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid #f59e0b; }
+    .badge-cyan { background: rgba(6, 182, 212, 0.2); color: #22d3ee; border: 1px solid #06b6d4; }
+    .header-box {
+      background: linear-gradient(135deg, #1e1b4b 0%, #1e293b 100%);
+      border: 1px solid #3730a3;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+    h1 {
+      color: #fbbf24;
+      font-size: 26px;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    h2 {
+      color: #38bdf8;
+      border-bottom: 2px solid #1e293b;
+      padding-bottom: 8px;
+      margin-top: 36px;
+      font-size: 20px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .stat-val {
+      font-size: 24px;
+      font-weight: 800;
+      color: #fff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background: #172554;
+      color: #93c5fd;
+      font-weight: 700;
+    }
+    tr:hover {
+      background: rgba(255,255,255,0.02);
+    }
+    .actor-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .cctv-item {
+      background: #0f172a;
+      border-left: 4px solid #ef4444;
+      padding: 16px;
+      margin-bottom: 14px;
+      border-radius: 0 8px 8px 0;
+    }
+    .code-text {
+      font-family: monospace;
+      color: #38bdf8;
+      background: rgba(0,0,0,0.3);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header-box">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <span class="badge badge-red">RAHASIA NEGARA / FORENSIK TIPIKOR & TPPU</span>
+      <span style="font-size:12px; color:var(--muted);">DITERBITKAN: 2026-10-15 14:00:00 WITA (Status Penyelidikan Aktif & Pengawasan Forensik Geoint)</span>
+    </div>
+    <h1>DOSSIER FORENSIK TINDAK PIDANA KORUPSI DAN PENGGELAPAN DANA HIBAH TAMBANG EMAS PT MASMINDO DWI AREA KABUPATEN LUWU (RP 67 MILIAR) - ADVOKASI PP IPMIL, AUDIT BPK & PENYELIDIKAN KEJATI/KPK</h1>
+    <p style="color:var(--muted); margin:0; font-size:14px;">
+      <strong>Fokus Penyelidikan:</strong> Dugaan penyelewengan dana hibah PT Masmindo Dwi Area senilai Rp 67 Miliar kepada Pemkab Luwu. Aksi unjuk rasa Pengurus Pusat Ikatan Pelajar Mahasiswa Indonesia Luwu (PP IPMIL) di Kejati Sulsel, BPK RI, dan KPK RI. Dilengkapi matriks penarikan tunai koper ilegal, audit nomor rekening bank, sinkronisasi jam tangan aktor, dan log CCTV.
+    </p>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Total Komitmen Hibah Masmindo</div>
+      <div class="stat-val" style="color:#fbbf24;">Rp 67.000.000.000</div>
+      <div style="font-size:11px; color:var(--muted);">100% Telah Ditransfer Korporasi</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Estimasi Dana Ditilep / Dialihkan</div>
+      <div class="stat-val" style="color:#ef4444;">Rp 48.600.000.000</div>
+      <div style="font-size:11px; color:#f87171;">Tanpa Registrasi Kasda APBD Luwu</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Aksi Advokasi PP IPMIL</div>
+      <div class="stat-val" style="color:#38bdf8;">4 Demonstrasi</div>
+      <div style="font-size:11px; color:var(--muted);">Kejati, BPK Sulsel, KPK & Pemkab</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Total Berkas Perkara & CCTV</div>
+      <div class="stat-val" style="color:#10b981;">3 Berkas / 6 CCTV</div>
+      <div style="font-size:11px; color:var(--muted);">Bukti Cek Fisik & Penarikan Koper</div>
+    </div>
+  </div>
+
+  <h2>1. RINGKASAN KASUS HIBAH PT MASMINDO DWI AREA</h2>
+  <div class="actor-box">
+    <p><strong>Perusahaan Tambang:</strong> PT Masmindo Dwi Area (Anak Perusahaan Nusantara Resources / Indika Energy Group)</p>
+    <p><strong>Konsesi Tambang:</strong> Kontrak Karya Generasi ke-VII No. 044.PK/20/DJM/1998 (Blok Tambang Emas Awak Mas)</p>
+    <p><strong>Lokasi Wilayah Adat:</strong> Desa Rante Balla, Boneposi, dan Tabang, Kecamatan Latimojong, Kabupaten Luwu, Sulawesi Selatan</p>
+    <p><strong>Dasar Hukum Perjanjian:</strong> Nota Kesepahaman Bersama (MoU) No. 019/MDA-Luwu/MoU/IV/2021 & NPHD Khusus Program Pengembangan Wilayah Luwu</p>
+    <p><strong>Peruntukan Resmi:</strong> Kompensasi Tanggung Jawab Sosial dan Lingkungan (TJSL), Pembangunan Infrastruktur Jalan Poros Latimojong-Belopa, Sarana Air Bersih Warga Adat Rante Balla, serta Penguatan Kas Daerah Kabupaten Luwu</p>
+    <p style="color:#f87171;"><strong>Temuan Forensik:</strong> Penyalahgunaan Wewenang Jabatan (Abuse of Power) & Penggelapan Anggaran Hibah: Rp 48,6 Miliar dari total Rp 67 Miliar tidak dimasukkan ke dalam Kasda melalui Perda APBD Murni, melainkan ditampung di Rekening Penampungan Khusus Non-Budgeter dan dicairkan tunai berulang melalui cek giro bank oleh nominee pembantu bupati.</p>
+  </div>
+
+  <h2>2. KRONOLOGI AKSI ADVOKASI & UNJUK RASA PENGURUS PUSAT IPMIL</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Tanggal & Target</th>
+        <th>Alamat Kantor</th>
+        <th>Jenderal Lapangan & Massa</th>
+        <th>Poin Tuntutan Utama</th>
+        <th>Respon Penegak Hukum</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <strong>18 Juli 2024 10:30 WITA</strong><br>
+          <span class="badge badge-gold">Kejaksaan Tinggi Sulawesi Selatan (Kejati Sulsel)</span>
+        </td>
+        <td>Gedung Kejati Sulsel, Jl. Urip Sumoharjo No. 244, Karampuang, Kec. Panakkukang, Kota Makassar</td>
+        <td>
+          <strong>Muh. Fadhil Ashari (Jenderal Lapangan PP IPMIL)</strong><br>
+          <span style="color:var(--muted); font-size:12px;">Massa: 250+ Massa Mahasiswa & Pemuda Luwu Raya</span>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:18px;">
+            <li>Mendesak Kepala Kejaksaan Tinggi Sulsel segera menerbitkan Surat Perintah Penyidikan (Sprindik) kasus dugaan korupsi dana hibah PT Masmindo Dwi Area senilai Rp 67 Miliar.</li><li>Memeriksa mantan Bupati Luwu (Dr. Drs. H. Basmin Mattayang, M.Pd.) dan mantan Sekda Luwu atas aliran dana hibah di luar RKUD (Rekening Kas Umum Daerah).</li><li>Menyita seluruh buku rekening penampungan dan bukti transfer yang disamarkan atas nama yayasan sosial fiktif di Belopa.</li>
+          </ul>
+        </td>
+        <td>
+          <p style="margin:0; font-size:12px;">Diterima oleh Kasi Penerangan Hukum (Penkum) Kejati Sulsel Soetarmi, S.H., M.H. Kejati menegaskan laporan aduan PP IPMIL telah diteruskan ke bidang Pidana Khusus (Pidsus) untuk proses telaah dan pengumpulan data/bahan keterangan (Puldata/Pulbaket).</p>
+          <span class="code-text">084/B/PP-IPMIL/KAWAL-MASMINDO/VII/2024</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>14 Agustus 2024 13:45 WITA</strong><br>
+          <span class="badge badge-gold">Badan Pemeriksa Keuangan (BPK) Perwakilan Sulsel</span>
+        </td>
+        <td>Kantor BPK RI Perwakilan Sulsel, Jl. A.P. Pettarani No. 1, Tamamaung, Kec. Panakkukang, Kota Makassar</td>
+        <td>
+          <strong>Andi Rian Pratama (Ketua Bidang Partisipasi Pembangunan Daerah PP IPMIL)</strong><br>
+          <span style="color:var(--muted); font-size:12px;">Massa: 180+ Kader Mahasiswa se-Luwu Raya</span>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:18px;">
+            <li>Mendesak Auditor BPK RI segera menerbitkan Laporan Hasil Pemeriksaan dengan Tujuan Tertentu (LHP-PDTT) atas dana hibah tambang emas PT Masmindo Rp 67 M.</li><li>Mengusut tuntas temuan BPK mengenai saldo tidak tercatat dan ketidakpatuhan pengelolaan kas daerah Luwu TA 2022 dan 2023.</li><li>Membuka secara transparan hasil uji petik fisik pembangunan jembatan dan relokasi masyarakat adat Rante Balla.</li>
+          </ul>
+        </td>
+        <td>
+          <p style="margin:0; font-size:12px;">Auditor Utama BPK Perwakilan Sulsel menerima audiensi perwakilan mahasiswa di Ruang Pola BPK. BPK mengonfirmasi adanya anomali sistem akuntansi dana kompensasi Masmindo dan menyatakan sedang melakukan audit investigatif lanjutan.</p>
+          <span class="code-text">102/B/PP-IPMIL/AUDIT-BPK/VIII/2024</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>09 September 2024 11:00 WITA</strong><br>
+          <span class="badge badge-gold">Kantor Bupati Luwu (Belopa)</span>
+        </td>
+        <td>Kompleks Perkantoran Pemkab Luwu, Jl. Jenderal Sudirman No. 1, Senga, Belopa, Kab. Luwu</td>
+        <td>
+          <strong>Rezky Darmawan (Korlap Aksi Tana Luwu Menggugat)</strong><br>
+          <span style="color:var(--muted); font-size:12px;">Massa: 400+ Mahasiswa, Aktivis, dan Aliansi Petani Adat Latimojong</span>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:18px;">
+            <li>Menuntut Pj. Bupati Luwu dan Sekretaris Daerah Luwu membuka dokumen Rekening Koran Kasda Luwu terkait mutasi dana hibah PT Masmindo Dwi Area Rp 67 Miliar.</li><li>Menuntut penghentian intimidasi preman tambang terhadap warga Rante Balla yang mempertahankan kebun cengkeh mereka.</li><li>Penyegelan simbolik pintu gerbang Kantor BPKAD Kabupaten Luwu sampai dokumen pencairan dibuka ke publik.</li>
+          </ul>
+        </td>
+        <td>
+          <p style="margin:0; font-size:12px;">Pj. Bupati Luwu bersama jajaran pejabat BPKAD menemui massa unjuk rasa di bawah pengawalan ketat Polres Luwu dan Satpol PP. Pemkab berjanji akan menyerahkan data verifikasi ke aparat penegak hukum.</p>
+          <span class="code-text">118/EXT/PP-IPMIL/CAB-LUWU/IX/2024</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>24 September 2024 14:15 WITA (Waktu Jakarta 13:15 WIB)</strong><br>
+          <span class="badge badge-gold">Komisi Pemberantasan Korupsi (KPK RI)</span>
+        </td>
+        <td>Gedung Merah Putih KPK RI, Jl. Kuningan Persada Kav. 4, Guntur, Setiabudi, Jakarta Selatan</td>
+        <td>
+          <strong>Farhan Nur Alim (Koordinator Advokasi Nasional PP IPMIL)</strong><br>
+          <span style="color:var(--muted); font-size:12px;">Massa: 65 Aktivis Mahasiswa Luwu Jabodetabek</span>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:18px;">
+            <li>Melaporkan dugaan Tindak Pidana Korupsi dan Tindak Pidana Pencucian Uang (TPPU) dana hibah tambang PT Masmindo Dwi Area ke KPK RI.</li><li>Mendesak Direktorat LHKPN KPK memeriksa harta kekayaan eks Bupati Luwu, eks Sekda Luwu, dan oknum mantan Kepala BPKAD Luwu yang melonjak drastis secara tidak wajar.</li><li>Meminta KPK mengambil alih (supervisi) penanganan kasus ini jika Kejati Sulsel lamban atau mengalami intervensi politik lokal.</li>
+          </ul>
+        </td>
+        <td>
+          <p style="margin:0; font-size:12px;">Laporan resmi diterima oleh Bagian Pengaduan Masyarakat (Dumas) KPK RI dengan Bukti Tanda Terima Pengaduan No. Dumas/2024/09/24-LUWU-67M. Tim LHKPN KPK mencatat adanya anomali kepemilikan aset tanah di Makassar dan Jakarta.</p>
+          <span class="code-text">135/LAPSUS/PP-IPMIL/DUMAS-KPK/IX/2024</span>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>3. ALIRAN DANA LINTAS REKENING, REKENING BANK & PENARIKAN ILEGAL</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Waktu & Metadata Jam Tangan</th>
+        <th>Bank & No. Rekening Asal</th>
+        <th>Bank & No. Rekening Tujuan</th>
+        <th>Nominal (IDR)</th>
+        <th>Metode & Slip Transaksi</th>
+        <th>Mekanisme Forensik & Indikator TPPU</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <strong>26 April 2022</strong><br>
+          <span class="code-text">10:14 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Tag Heuer Carrera Chronograph Calibre 16 (Ref. CBM2110.BA0687)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terlihat jelas di pergelangan tangan kiri saat menekan otorisasi token bank di ruang rapat VIP</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCU Jakarta Thamrin Escrow Tambang</strong><br>
+          <span class="code-text">102-00-881920-1 (PT Masmindo Dwi Area Escrow CSR)</span><br>
+          <span style="font-size:11px; color:var(--muted);">PT Masmindo Dwi Area (Corporate Treasury Account)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Gedung Menara Mandiri I, Jl. Jend. Sudirman Kav. 54-55, Senayan, Jakarta Selatan</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar KCU Belopa</strong><br>
+          <span class="code-text">030-001-000889-4 (Rekening Penampungan Hibah Pemkab Luwu)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">Pemkab Luwu - Rekening Non-Budgeter Hibah Luwu</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 25.000.000.000</td>
+        <td>
+          <span class="badge badge-cyan">BI-RTGS (Real Time Gross Settlement) Antar-Bank Mandiri ke Sulselbar</span><br>
+          <span class="code-text">RTGS-MDR-JKT-SLSBR-BEL-20220426-00918</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Penyaluran termin I dana kompensasi infrastruktur tambang Awak Mas. Seharusnya disetor langsung ke Kas Umum Daerah (Kasda) melalui Surat Ketetapan Penerimaan Daerah (SKPD), namun dialihkan ke rekening giro khusus non-APBD yang dikendalikan oleh elit BPKAD.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Rekening penerima tidak terdaftar dalam Lampiran Peraturan Daerah APBD Kabupaten Luwu Tahun Anggaran 2022.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>12 Mei 2022</strong><br>
+          <span class="code-text">11:42 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Apple Watch Ultra 2 Titanium Case (Model A2986)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Tercatat di CCTV Teller No. 04 Bank Sulselbar Belopa saat menandatangani kuitansi pencairan fisik</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar KCU Belopa</strong><br>
+          <span class="code-text">030-001-000889-4 (Rekening Non-Budgeter Hibah Luwu)</span><br>
+          <span style="font-size:11px; color:var(--muted);">Pemkab Luwu - Hibah Non-Budgeter</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td>
+          <strong>Penarikan Tunai Fisik (Teller VIP Bank Sulselbar KCU Belopa)</strong><br>
+          <span class="code-text">Pencairan Cek Tunai Seri Giro: BG-SLSBR-889102-L</span><br>
+          <span style="font-size:11px; color:#38bdf8;">M. Rusdi Aslam, S.Sos. (Ajudan Kepercayaan / Kuasa Penarik)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 8.500.000.000</td>
+        <td>
+          <span class="badge badge-cyan">Over-The-Counter Cash Withdrawal (Penarikan Cek Tunai Giro Khusus)</span><br>
+          <span class="code-text">SLIP-WD-SLSBR-BEL-20220512-8821</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Penarikan tunai Rp 8,5 Miliar pecahan Rp 100.000 dimasukkan ke dalam 4 tas koper hitam berukuran kabin 24 inci di ruang pimpinan cabang Bank Sulselbar Belopa. Dibawa menggunakan Toyota Fortuner Hitam DP 1024 FA menuju kediaman dinas bupati.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Penarikan tunai bernilai jumbo di atas batas pelaporan PPATK (Rp 500 Juta) tanpa dokumen SPJ verifikasi teknis pekerjaan fisik.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>18 Januari 2023</strong><br>
+          <span class="code-text">09:30 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Tag Heuer Carrera Chronograph Calibre 16 (Ref. CBM2110.BA0687)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terpantau di lobi Menara Mandiri Jakarta saat menyerahkan berkas approval kliring RTGS</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCU Jakarta Thamrin Escrow Tambang</strong><br>
+          <span class="code-text">102-00-881920-1 (PT Masmindo Dwi Area Escrow CSR)</span><br>
+          <span style="font-size:11px; color:var(--muted);">PT Masmindo Dwi Area</span><br>
+          <span style="font-size:10px; color:var(--muted);">Gedung Menara Mandiri I, Jl. Jend. Sudirman Kav. 54-55, Senayan, Jakarta Selatan</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar KCU Belopa</strong><br>
+          <span class="code-text">030-001-000889-4 (Rekening Penampungan Hibah Pemkab Luwu)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">Pemkab Luwu - Rekening Non-Budgeter Hibah Luwu</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 42.000.000.000</td>
+        <td>
+          <span class="badge badge-cyan">BI-RTGS Antar-Bank Mandiri ke Bank Sulselbar</span><br>
+          <span class="code-text">RTGS-MDR-JKT-SLSBR-BEL-20230118-00442</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Penyaluran termin II dan pelunasan komitmen hibah Rp 42 Miliar menyusul persetujuan izin Amdal dan pinjam pakai kawasan hutan (IPPKH) Awak Mas dari Pemkab dan Dinas Lingkungan Hidup.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Aliran dana tidak dicatatkan dalam SiRUP (Sistem Informasi Rencana Umum Pengadaan) LKPP Kabupaten Luwu.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>02 Februari 2023</strong><br>
+          <span class="code-text">14:25 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Tissot Le Locle Powermatic 80 (Ref. T006.407.16.033.00)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terlihat jelas di kamera CCTV lobi Mandiri Belopa saat melampirkan SK Yayasan Penampung</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar KCU Belopa</strong><br>
+          <span class="code-text">030-001-000889-4 (Rekening Non-Budgeter Hibah Luwu)</span><br>
+          <span style="font-size:11px; color:var(--muted);">Pemkab Luwu - Hibah Non-Budgeter</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCP Belopa</strong><br>
+          <span class="code-text">174-00-098231-9 (Yayasan Tana Luwu Sejahtera - Nominee)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">H. Andi Baharuddin, S.E. (Ketua Yayasan Boneposi Sejahtera / Broker)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Sungai Pareman No. 14, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 14.600.000.000</td>
+        <td>
+          <span class="badge badge-cyan">SKNBI Kliring Debit Antar-Bank Sulselbar ke Mandiri</span><br>
+          <span class="code-text">SKN-SLSBR-BEL-MDR-20230202-7718</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pemindahbukuan dana hibah berdalih program pemberdayaan ekonomi masyarakat adat Latimojong. Faktanya yayasan baru didirikan 3 minggu sebelumnya dan kantor sekretariatnya kosong (fiktif).</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Penyaluran hibah ke yayasan tanpa melalui mekanisme seleksi hibah ormas berbasis e-Hibah Pemprov/Pemkab.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>10 Februari 2023</strong><br>
+          <span class="code-text">10:50 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Tissot Le Locle Powermatic 80 (Ref. T006.407.16.033.00)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terpantau di meja Teller No. 02 saat memverifikasi packing cash bundel Rp 100 ribu</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCP Belopa</strong><br>
+          <span class="code-text">174-00-098231-9 (Yayasan Tana Luwu Sejahtera)</span><br>
+          <span style="font-size:11px; color:var(--muted);">Yayasan Boneposi Sejahtera (H. Andi Baharuddin)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Sungai Pareman No. 14, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td>
+          <strong>Penarikan Tunai Teller Mandiri KCP Belopa</strong><br>
+          <span class="code-text">Cek Tunai Mandiri: CK-MDR-99214-BLP</span><br>
+          <span style="font-size:11px; color:#38bdf8;">H. Andi Baharuddin, S.E. (Tarik Tunai Koper Fisik)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Sungai Pareman No. 14, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 12.000.000.000</td>
+        <td>
+          <span class="badge badge-cyan">Over-The-Counter Cash Withdrawal (Penarikan Cek Tunai Mandiri)</span><br>
+          <span class="code-text">SLIP-WD-MDR-BEL-20230210-9901</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Penarikan uang tunai Rp 12 Miliar secara beruntun dalam waktu 1 jam. Uang dimuat ke dalam mobil Mitsubishi Pajero Sport Putih DP 1212 XX milik broker, lalu diserahkan di rumah pribadi pejabat di Cilallang.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Smurfing / Structuring terbalik: penarikan tunai masif untuk menghindari jejak digital audit BPK.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>08 Maret 2023</strong><br>
+          <span class="code-text">15:10 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Garmin Tactix 7 Pro Solar Ballistics Edition (Ref. 010-02704-20)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Tercatat di CCTV Kantor BPKAD Luwu saat menandatangani nota dinas pencairan</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar KCU Belopa</strong><br>
+          <span class="code-text">030-001-000889-4 (Rekening Non-Budgeter Hibah Luwu)</span><br>
+          <span style="font-size:11px; color:var(--muted);">Pemkab Luwu - Hibah Non-Budgeter</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td>
+          <strong>BCA KCU Panakkukang Makassar</strong><br>
+          <span class="code-text">789-0821-445 (Rekening Pribadi Pengusaha / Keluarga Elit)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">Ir. A. Muh. Faisal (Pengusaha Tambang Batuan & Kerabat Dekat)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Boulevard Blok A-2 No. 1-4, Masale, Panakkukang, Makassar</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 7.500.000.000</td>
+        <td>
+          <span class="badge badge-cyan">RTGS Antar-Bank Sulselbar ke BCA Panakkukang</span><br>
+          <span class="code-text">RTGS-SLSBR-BCA-MKS-20230308-01142</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pengalihan dana komitmen fee rekomendasi izin lingkungan dan pelepasan aset jalan desa ke konsorsium penambangan Masmindo.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Rekening penerima digunakan untuk melunasi cicilan properti rumah mewah di bilangan Hertasning Baru Makassar.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>15 November 2023</strong><br>
+          <span class="code-text">19:40 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Rolex Submariner Date 41mm Oystersteel (Ref. 126610LN)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terlihat jelas di CCTV Eksekutif Lounge Hotel Claro Makassar saat pertemuan tertutup</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar KCU Belopa</strong><br>
+          <span class="code-text">030-002-991823-4 (M. Rusdi / Ajudan Pribadi)</span><br>
+          <span style="font-size:11px; color:var(--muted);">M. Rusdi Aslam, S.Sos. (Rekening Penampungan Ajudan)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar Cabang Utama Makassar</strong><br>
+          <span class="code-text">100-002-881944-1 (Safe Deposit & Tarik Tunai Resepsionis Hotel Claro)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">Penyerahan Amplop & Koper Tunai Tim Pengondisi BPK & Kejaksaan</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Dr. Sam Ratulangi No. 16, Mangkura, Kec. Ujung Pandang, Makassar</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 6.000.000.000</td>
+        <td>
+          <span class="badge badge-cyan">Penyerahan Fisik Tunai (Cash Handover in Samsonite Suitcase)</span><br>
+          <span class="code-text">CASH-DELIV-CLARO-MKS-20231115-77</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Distribusi dana gratifikasi taktis untuk mengamankan opini WTP (Wajar Tanpa Pengecualian) dan membendung pemanggilan saksi di Kejaksaan Tinggi Sulsel.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Penyerahan dana tunai di luar jam kerja perbankan di lokasi perhotelan tanpa kwitansi resmi negara.</span>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>4. PROFIL PEJABAT & AKTOR TERINDIKASI, ALAMAT RUMAH, REKENING & JAM TANGAN</h2>
+  
+  <div class="actor-box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Dr. Drs. H. Basmin Mattayang, M.Pd.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Mantan Bupati Kabupaten Luwu (Periode 2019–2024) | Pemerintah Kabupaten Luwu / Politisi Senior Sulsel</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Kejati: Penyelidikan PidSus (Saksi Kunci)</span>
+        <span class="badge badge-gold">KPK: Verifikasi LHKPN Tidak Wajar</span>
+      </div>
+    </div>
+    
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Poros Palopo-Makassar Km 12 Cilallang, RT 02 / RW 01, Desa Cilallang, Kecamatan Kamanre, Kabupaten Luwu, Sulawesi Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Rolex Submariner Date 41mm Oystersteel Cerachrom Bezel (Ref. 126610LN)</span> (Est. Harga: Rp 245.000.000 - Rp 275.000.000) - <em>Dipakai saat penandatanganan addendum MoU PT Masmindo di Belopa dan pertemuan lobi Hotel Claro Makassar</em></p>
+      <p><strong>🚨 Peran Penyelewengan:</strong> Pemberi persetujuan penerbitan NPHD dan rekening penampungan non-budgeter hibah PT Masmindo Dwi Area; menginstruksikan pencairan cek giro tunai puluhan miliar tanpa mekanisme penetapan APBD melalui Perda bersama DPRD Luwu.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Temuan BPK No. 18/LHP/XIX.MKS/05/2023: Ketidakpatuhan materil terhadap PP No. 12 Tahun 2019 tentang Pengelolaan Keuangan Daerah; hibah tambang Rp 67 Miliar tidak dimasukkan ke dalam Rencana Kerja Pemerintah Daerah (RKPD).</span></p>
+      
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Sulselbar KCU Belopa</strong> | No. Rek: <span class="code-text">030-001-000100-2</span> | Cabang: Jl. Jenderal Sudirman No. 89, Belopa, Kab. Luwu | Est. Saldo: Rp 4.820.000.000 (Saldo Rata-rata Operasional) (<span style="color:#f87171;">Diaudit PPATK & Masuk Pemantauan LHKPN KPK</span>)
+          </li>
+        
+          <li>
+            <strong>Bank Mandiri KCP Belopa</strong> | No. Rek: <span class="code-text">174-00-119820-4</span> | Cabang: Jl. Sungai Pareman No. 14, Senga Selatan, Belopa, Kab. Luwu | Est. Saldo: Rp 6.350.000.000 (<span style="color:#f87171;">Pemblokiran Terbatas Permohonan PidSus Kejati</span>)
+          </li>
+        
+          <li>
+            <strong>BCA KCU Panakkukang Makassar</strong> | No. Rek: <span class="code-text">789-0112-998</span> | Cabang: Jl. Boulevard Blok A-2 No. 1-4, Panakkukang, Makassar | Est. Saldo: Rp 8.900.000.000 (<span style="color:#f87171;">Rekening Keluarga Penampung Investasi</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="actor-box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Drs. H. Sulaiman, M.M.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Mantan Sekretaris Daerah (Sekda) Kab. Luwu / Ketua Tim Anggaran Pemerintah Daerah (TAPD) | Sekretariat Daerah Kabupaten Luwu</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Kejati: Panggilan Klarifikasi Ke-2</span>
+        <span class="badge badge-gold">KPK: Telaah Dumas No. Agenda Dumas-KPK</span>
+      </div>
+    </div>
+    
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Andi Djemma No. 45, Lingkungan Senga, Kelurahan Senga, Kecamatan Belopa, Kabupaten Luwu, Sulawesi Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Patek Philippe Calatrava Rose Gold 39mm Leather Strap (Ref. 5227R-001)</span> (Est. Harga: Rp 480.000.000 - Rp 520.000.000) - <em>Terdeteksi kamera pengawas saat rapat koordinasi TAPD pengalihan kas hibah di Ruang Pola Andi Kambo Belopa</em></p>
+      <p><strong>🚨 Peran Penyelewengan:</strong> Ketua TAPD yang memverifikasi naskah perjanjian hibah tambang emas; membiarkan pos penerimaan hibah tidak dibukukan di pos Pendapatan Asli Daerah (PAD) Lain-Lain yang Sah, melainkan ditampung di rekening perantara.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Gagal menyajikan dokumen rekonsiliasi kas hibah tambang PT Masmindo Dwi Area dalam uji petik LHP Kepatuhan BPK RI TA 2023.</span></p>
+      
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Sulselbar KCU Belopa</strong> | No. Rek: <span class="code-text">030-002-881920-7</span> | Cabang: Jl. Jenderal Sudirman No. 89, Belopa, Kab. Luwu | Est. Saldo: Rp 2.940.000.000 (<span style="color:#f87171;">Dalam Pemeriksaan BPK</span>)
+          </li>
+        
+          <li>
+            <strong>BNI KCP Belopa</strong> | No. Rek: <span class="code-text">023-8819-201</span> | Cabang: Jl. Jenderal Sudirman No. 112, Belopa, Kab. Luwu | Est. Saldo: Rp 3.120.000.000 (<span style="color:#f87171;">Aktif</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="actor-box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Drs. Muhammad Arsyad, M.Si.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Mantan Kepala Badan Pengelolaan Keuangan dan Aset Daerah (BPKAD) Kab. Luwu / BUD | BPKAD Kabupaten Luwu</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Kejati: Penyelidikan PidSus (Saksi Kunci)</span>
+        <span class="badge badge-gold">KPK: Telaah Dumas No. Agenda Dumas-KPK</span>
+      </div>
+    </div>
+    
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Topoka No. 28, Lingkungan Tampumia, Kelurahan Senga, Kecamatan Belopa, Kabupaten Luwu, Sulawesi Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Garmin Tactix 7 Pro Solar Ballistics Edition (Ref. 010-02704-20)</span> (Est. Harga: Rp 24.500.000 - Rp 28.000.000) - <em>Dipakai saat penandatanganan Surat Perintah Pencairan Dana (SP2D) giro non-budgeter di Kantor BPKAD</em></p>
+      <p><strong>🚨 Peran Penyelewengan:</strong> Bendahara Umum Daerah (BUD) yang menandatangani cek tunai giro pemindahbukuan kas hibah ke yayasan dan ajudan pribadi; merekayasa laporan mutasi kas agar tidak muncul selisih minus dalam neraca keuangan daerah.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Ditemukan indikasi rekayasa pembukuan akun kas lainnya sebesar Rp 48,6 Miliar yang tidak dapat dipertanggungjawabkan bukti pengeluaran riilnya.</span></p>
+      
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Sulselbar KCU Belopa</strong> | No. Rek: <span class="code-text">030-001-000889-4 (Kuasa BUD Khusus)</span> | Cabang: Jl. Jenderal Sudirman No. 89, Belopa, Kab. Luwu | Est. Saldo: Rp 1.150.000.000 (Sisa Saldo Buku Rekening Penampungan) (<span style="color:#f87171;">Disita Dokumen Rekening Koran oleh PidSus</span>)
+          </li>
+        
+          <li>
+            <strong>Bank Mandiri KCP Belopa</strong> | No. Rek: <span class="code-text">174-00-884109-2</span> | Cabang: Jl. Sungai Pareman No. 14, Belopa, Kab. Luwu | Est. Saldo: Rp 1.840.000.000 (<span style="color:#f87171;">Pengawasan Forensik</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="actor-box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Ir. Hendra Wijaya Kusuma, S.T.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">External Relations & Government Affairs Senior Manager PT Masmindo Dwi Area | Manajemen PT Masmindo Dwi Area (Awak Mas Gold Project)</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Kejati: Panggilan Klarifikasi Ke-2</span>
+        <span class="badge badge-gold">KPK: Penyelidikan Terbuka</span>
+      </div>
+    </div>
+    
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Perumahan CitraLand Celebes Blok H-12, Jl. Tun Abdul Razak, Kelurahan Tombolo, Kecamatan Somba Opu, Kabupaten Gowa / Perbatasan Makassar, Sulawesi Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Tag Heuer Carrera Chronograph Calibre 16 Automatic Sunray Blue (Ref. CBM2110.BA0687)</span> (Est. Harga: Rp 78.000.000 - Rp 92.000.000) - <em>Terlihat pada saat lobi perizinan tata ruang dan penyerahan slip transfer RTGS ke pejabat Luwu</em></p>
+      <p><strong>🚨 Peran Penyelewengan:</strong> Eksekutor korporasi yang menyetujui skema transfer dana kompensasi tambang ke rekening penampungan non-budgeter Pemkab Luwu demi mempercepat penerbitan rekomendasi izin lingkungan tanpa hambatan unjuk rasa warga adat.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Menolak memberikan rincian audit internal PT Masmindo mengenai realisasi dana CSR dan kompensasi lingkungan kepada BPK dengan dalih klausul kerahasiaan korporasi swasta.</span></p>
+      
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Mandiri KCU Makassar Kartini</strong> | No. Rek: <span class="code-text">152-00-994102-8</span> | Cabang: Jl. R.A. Kartini No. 19, Baru, Kec. Ujung Pandang, Makassar | Est. Saldo: Rp 3.850.000.000 (<span style="color:#f87171;">Pemeriksaan Hubungan Perusahaan-Pemda</span>)
+          </li>
+        
+          <li>
+            <strong>BCA KCU Panakkukang Makassar</strong> | No. Rek: <span class="code-text">789-0441-892</span> | Cabang: Jl. Boulevard Blok A-2 No. 1-4, Panakkukang, Makassar | Est. Saldo: Rp 2.400.000.000 (<span style="color:#f87171;">Aktif</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="actor-box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">M. Rusdi Aslam, S.Sos.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Ajudan Pribadi / Staf Pengamanan Khusus Pimpinan Eksekutif Luwu | Bagian Protokol dan Rumah Tangga Sekretariat Daerah Luwu</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Kejati: Penyelidikan PidSus (Saksi Kunci)</span>
+        <span class="badge badge-gold">KPK: Verifikasi LHKPN Tidak Wajar</span>
+      </div>
+    </div>
+    
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Dusun Balla, RT 01 / RW 02, Desa Tanamanai, Kecamatan Belopa, Kabupaten Luwu, Sulawesi Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Apple Apple Watch Ultra 2 Titanium Case 49mm Ocean Band (Model A2986)</span> (Est. Harga: Rp 14.999.000 - Rp 16.500.000) - <em>Tercatat di rekaman CCTV Bank Sulselbar KCU Belopa saat menenteng koper penarikan tunai Rp 8,5 Miliar</em></p>
+      <p><strong>🚨 Peran Penyelewengan:</strong> Nominee perantara penarikan tunai (cash courier); bertindak sebagai pihak yang mencairkan puluhan lembar cek giro kasda dan mendistribusikan koper uang tunai kepada pihak-pihak berkepentingan politik di Belopa dan Makassar.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Rekening pribadinya menerima arus dana masuk sebesar Rp 14,8 Miliar yang tidak proporsional dengan profil gajinya sebagai ASN golongan III/b.</span></p>
+      
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Sulselbar KCU Belopa</strong> | No. Rek: <span class="code-text">030-002-991823-4</span> | Cabang: Jl. Jenderal Sudirman No. 89, Belopa, Kab. Luwu | Est. Saldo: Rp 1.450.000.000 (<span style="color:#f87171;">Blokir Rekening PidSus Kejati</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="actor-box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">H. Andi Baharuddin, S.E. (Petta Bahar)</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Ketua Yayasan Boneposi Tana Luwu Sejahtera / Direktur CV Awak Mas Karya Mandiri | Pihak Swasta / Broker Proyek Pemkab Luwu</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Kejati: Target Pencekalan Imigrasi</span>
+        <span class="badge badge-gold">KPK: Penyelidikan Terbuka</span>
+      </div>
+    </div>
+    
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Andi Kambo No. 88, RT 03 / RW 04, Kelurahan Salekoe, Kecamatan Wara Timur, Kota Palopo, Sulawesi Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Tissot Tissot Le Locle Powermatic 80 Automatic (Ref. T006.407.16.033.00)</span> (Est. Harga: Rp 11.200.000 - Rp 13.500.000) - <em>Dipakai saat mengambil uang tunai Rp 12 Miliar di Bank Mandiri Belopa</em></p>
+      <p><strong>🚨 Peran Penyelewengan:</strong> Pengelola entitas penampung fiktif yang menerima aliran Rp 14,6 Miliar dari kas hibah; melakukan penarikan tunai cepat lalu mendistribusikannya kembali ke simpul-simpul kekuasaan lokal untuk mengunci suara pilkada dan kompensasi tertutup.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Kantor yayasan yang bersangkutan terbukti fiktif dan laporan pertanggungjawaban kegiatan pelatihan warga lingkar tambang dibuat secara palsu.</span></p>
+      
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Mandiri KCP Belopa</strong> | No. Rek: <span class="code-text">174-00-098231-9 (Yayasan)</span> | Cabang: Jl. Sungai Pareman No. 14, Belopa, Kab. Luwu | Est. Saldo: Rp 820.000.000 (<span style="color:#f87171;">Beku (Freeze Transaksi oleh Jaksa)</span>)
+          </li>
+        
+          <li>
+            <strong>BRI Cabang Palopo</strong> | No. Rek: <span class="code-text">0288-01-002914-53-1</span> | Cabang: Jl. Rambutan No. 1, Dangerakko, Wara, Kota Palopo | Est. Saldo: Rp 2.150.000.000 (<span style="color:#f87171;">Pemantauan Tipikor</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+
+  <h2>5. DOKUMEN BUKTI HUKUM DI KEJATI SULSEL, BPK SULSEL & KPK RI</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Instansi & No. Register</th>
+        <th>Judul Berkas & Tanggal</th>
+        <th>Jaksa / Auditor Utama</th>
+        <th>Pihak / Tersangka Terlapor</th>
+        <th>Daftar Alat Bukti Disita</th>
+        <th>Status Penanganan Perkara</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <span class="badge badge-gold">Kejati Sulsel (PidSus)</span><br>
+          <span class="code-text">SP.Ops-LHP/412/H.4.1/Fd.1/08/2024</span>
+        </td>
+        <td>
+          <strong>Penyelidikan Dugaan Tindak Pidana Korupsi Penyalahgunaan Dana Hibah Perusahaan Tambang Emas PT Masmindo Dwi Area pada Pemkab Luwu TA 2021–2023</strong><br>
+          <span style="font-size:11px; color:var(--muted);">22 Agustus 2024</span>
+        </td>
+        <td>Dr. Jabal Nur, S.H., M.H. (Koordinator Tim Penyelidik PidSus Kejati Sulsel)</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Dr. Drs. H. Basmin Mattayang, M.Pd. (Mantan Bupati Luwu)</li><li>Drs. H. Sulaiman, M.M. (Mantan Sekda Kab. Luwu)</li><li>Drs. Muhammad Arsyad, M.Si. (Mantan Kepala BPKAD Luwu)</li><li>M. Rusdi Aslam, S.Sos. (Ajudan Pribadi)</li>
+          </ul>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:11px; color:#cbd5e1;">
+            <li>Buku Rekening Giro Bank Sulselbar KCU Belopa No. 030-001-000889-4 periode 2021-2023.</li><li>14 Bundel Cek Giro Tunai Seri BG-SLSBR-889100 sampai BG-SLSBR-889114.</li><li>Naskah Asli Perjanjian Kerjasama Dana Kompensasi Daerah antara Pemkab Luwu dan PT Masmindo Dwi Area.</li><li>Rekaman CCTV Teller 04 Bank Sulselbar Belopa tanggal 12 Mei 2022 dan CCTV Bank Mandiri Belopa 10 Februari 2023.</li>
+          </ul>
+        </td>
+        <td>
+          <span class="badge badge-cyan">Pemeriksaan Saksi-Saksi Kunci & Sinkronisasi Hasil Audit Perhitungan Kerugian Keuangan Negara (PKKN) BPKP.</span><br>
+          <p style="margin:4px 0 0 0; font-size:11px; color:var(--muted);">Tim Jaksa Penyelidik menemukan indikasi kuat kerugian keuangan negara minimal sebesar Rp 48,6 Miliar akibat pencairan dana hibah yang tidak pernah dipertanggungjawabkan melalui Laporan Realisasi Anggaran (LRA) Pemkab Luwu.</p>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <span class="badge badge-gold">BPK RI Perwakilan Sulsel</span><br>
+          <span class="code-text">48/LHP/XIX.MKS/10/2024</span>
+        </td>
+        <td>
+          <strong>Laporan Hasil Pemeriksaan dengan Tujuan Tertentu (PDTT) atas Pengelolaan Dana Hibah Tambang dan Belanja Modal Infrastruktur Kabupaten Luwu</strong><br>
+          <span style="font-size:11px; color:var(--muted);">04 Oktober 2024</span>
+        </td>
+        <td>Drs. Wahyudi Tri Santoso, Ak., M.M., CA (Penanggung Jawab Tim Audit Forensik BPK)</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Bupati Luwu Periode 2019-2024</li><li>Tim Anggaran Pemerintah Daerah (TAPD) Kab. Luwu</li><li>Kuasa Pengguna Anggaran (KPA) BPKAD Luwu</li>
+          </ul>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:11px; color:#cbd5e1;">
+            <li>Data mutasi rekening koran Bank Sulselbar KCU Belopa dan Bank Mandiri Escrow Jakarta.</li><li>Berita Acara Pembayaran dan Serah Terima Pekerjaan Jalan Poros Latimojong TA 2022 (Terindikasi Total Fiktif).</li><li>Daftar penerima bansos/pemberdayaan warga adat Boneposi yang dipalsukan tanda tangannya.</li>
+          </ul>
+        </td>
+        <td>
+          <span class="badge badge-cyan">Penyerahan LHP Resmi kepada Ketua DPRD Kabupaten Luwu dan Kepala Kejaksaan Tinggi Sulawesi Selatan.</span><br>
+          <p style="margin:4px 0 0 0; font-size:11px; color:var(--muted);">BPK menyimpulkan adanya 6 klausul pelanggaran Undang-Undang Perbendaharaan Negara No. 1 Tahun 2004 dan penyembunyian pos penerimaan hibah yang berakibat pada pemberian opini Tidak Wajar (TW) parsial untuk pos hibah daerah Luwu.</p>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <span class="badge badge-gold">KPK RI (Dumas/LHKPN)</span><br>
+          <span class="code-text">DUMAS-KPK/8841-SS/IX/2024 & LHKPN-P-9921</span>
+        </td>
+        <td>
+          <strong>Laporan Pengaduan Masyarakat (Dumas) PP IPMIL Terkait Dugaan Suap Izin Lingkungan Tambang Emas Masmindo dan Pencucian Uang Pejabat Luwu</strong><br>
+          <span style="font-size:11px; color:var(--muted);">27 September 2024</span>
+        </td>
+        <td>Tim Direktorat Pelayanan Laporan dan Pengaduan Masyarakat (PLPM) KPK RI</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Dr. Drs. H. Basmin Mattayang, M.Pd.</li><li>Ir. Hendra Wijaya Kusuma, S.T. (PT Masmindo)</li><li>H. Andi Baharuddin, S.E. (Yayasan Fiktif)</li>
+          </ul>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:11px; color:#cbd5e1;">
+            <li>Dokumen Laporan Hasil Analisis (LHA) PPATK terkait perputaran dana tunai Rp 67 Miliar.</li><li>Sertifikat Hak Milik (SHM) aset properti di Makassar, Gowa, dan Palopo yang dibeli pasca-termin pencairan hibah.</li><li>Berkas kronologi dan petisi unjuk rasa PP IPMIL serta aliansi mahasiswa Tana Luwu.</li>
+          </ul>
+        </td>
+        <td>
+          <span class="badge badge-cyan">Penelaahan LHKPN Penyelenggara Negara & Koordinasi Supervisi Kasus Bersama Kejati Sulsel.</span><br>
+          <p style="margin:4px 0 0 0; font-size:11px; color:var(--muted);">Direktorat Pengaduan Masyarakat KPK melakukan verifikasi substantif dan meneruskan data intelijen keuangan ke Satgas Penyidikan Wilayah IV (Sulawesi) untuk koordinasi supervisi dengan Kejati Sulsel.</p>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>6. LOG VIDEO REKAMAN CCTV FORENSIK PENARIKAN TUNAI & PENYERAHAN UANG</h2>
+  
+  <div class="cctv-item">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-SLSBR-BEL-CAM04</span>
+      <span class="code-text">TIMESTAMP: 12 Mei 2022 11:42:18 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Penarikan Cek Tunai Giro Rp 8,5 Miliar di Teller VIP Bank Sulselbar Belopa</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Jenderal Sudirman No. 89, Senga Selatan, Belopa, Kab. Luwu (Bank Sulselbar Kantor Cabang Utama Belopa)</p>
+    
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> M. Rusdi Aslam, S.Sos. (Ajudan Kepercayaan) didampingi staf BPKAD Luwu</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Apple Watch Ultra 2 Titanium Case with Orange Ocean Band</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 11:42 WITA (Apple Watch Ultra 2 di pergelangan tangan penarik sinkron presisi dengan clock overlay CCTV)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Toyota Fortuner Hitam Metalik Nopol DP 1024 FA (Kendaraan Dinas Protokol Pemkab)</span></div>
+      <div><strong>Nominal Uang:</strong> <span style="color:#ef4444; font-weight:700;">Rp 8.500.000.000 (Pecahan Rp 100.000)</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">9e7b2f4c10a88319eacba891...</span></div>
+    </div>
+    
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Ajudan bupati menandatangani slip penarikan giro di counter teller VIP. Dua teller bank memasukkan 85 bundel uang tunai segel BI ke dalam 4 tas koper hitam Samsonite. Koper dibawa keluar lobi bank dengan pengawalan aparat dinas.
+    </p>
+  </div>
+  
+  <div class="cctv-item">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-MDR-BEL-CAM02</span>
+      <span class="code-text">TIMESTAMP: 10 Februari 2023 10:51:04 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Penarikan Tunai Cek Rp 12 Miliar oleh Yayasan Boneposi Mandiri di Bank Mandiri Belopa</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Sungai Pareman No. 14, Senga Selatan, Belopa, Kab. Luwu (Bank Mandiri Kantor Cabang Pembantu Belopa)</p>
+    
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> H. Andi Baharuddin, S.E. (Ketua Yayasan Nominee / Broker)</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Tissot Le Locle Powermatic 80 Silver Dial (T006.407.16.033.00)</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 10:50 WITA (Tissot Le Locle Powermatic 80 jarum detik tepat di posisi angka 12)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Mitsubishi Pajero Sport Dakar Putih Nopol DP 1212 XX</span></div>
+      <div><strong>Nominal Uang:</strong> <span style="color:#ef4444; font-weight:700;">Rp 12.000.000.000 (Pecahan Rp 100.000)</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">44a881bc920410ffea88912b...</span></div>
+    </div>
+    
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Broker yayasan tiba pukul 10:35 WITA menyerahkan slip cek tunai. Pihak bank menyiapkan uang tunai di ruang khazanah brankas bawah. 6 kardus uang diserahterimakan dan langsung diangkut ke bagasi Pajero Sport.
+    </p>
+  </div>
+  
+  <div class="cctv-item">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-CLARO-MKS-VIP09</span>
+      <span class="code-text">TIMESTAMP: 15 November 2023 19:42:30 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Pertemuan Tertutup & Penyerahan Koper Uang di Executive Lounge Hotel Claro Makassar</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. A.P. Pettarani No. 03, Mannuruki, Kec. Tamalate, Kota Makassar (Hotel Claro Makassar (Executive Lounge Lantai 6))</p>
+    
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Dr. Drs. H. Basmin Mattayang, M.Pd. bersama oknum perantara lobi aparat</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Rolex Submariner Date 41mm Oystersteel Cerachrom Bezel</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 19:42 WITA (Rolex Submariner Date 126610LN terbaca di sensor inframerah kamera PTZ)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Toyota Alphard Hitam Nopol DD 10 BM & Sedan Hitam Plat Khusus</span></div>
+      <div><strong>Nominal Uang:</strong> <span style="color:#ef4444; font-weight:700;">Rp 6.000.000.000 (Uang Tunai dalam Koper Samsonite)</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">7819efba012488bc109412ee...</span></div>
+    </div>
+    
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Rekaman memperlihatkan penyerahan satu koper kaku warna abu-abu gelap dari ajudan bupati kepada oknum berjas hitam di sudut lounge privat. Pertemuan berlangsung selama 38 menit sebelum rombongan meninggalkan hotel.
+    </p>
+  </div>
+  
+  <div class="cctv-item">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-KEJATI-MKS-GATE01</span>
+      <span class="code-text">TIMESTAMP: 18 Juli 2024 10:45:12 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Aksi Unjuk Rasa Akbar Mahasiswa PP IPMIL di Gerbang Utama Kejaksaan Tinggi Sulsel</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Urip Sumoharjo No. 244, Karampuang, Panakkukang, Makassar (Gerbang Utama Gedung Kejati Sulsel)</p>
+    
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> 250+ Massa Pengurus Pusat IPMIL & Aliansi Mahasiswa Tana Luwu</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Jam tangan Casio G-Shock Korlap Lapangan & Spanduk Tuntutan Sprindik</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 10:45 WITA (Waktu orasi Jenderal Lapangan Muh. Fadhil Ashari)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Mobil Komando Truk Terbuka Nopol DD 8821 XX & Motor Pengawal Mahasiswa</span></div>
+      <div><strong>Nominal Uang:</strong> <span style="color:#ef4444; font-weight:700;">Tuntutan Penyelidikan Dugaan Korupsi Hibah Rp 67 Miliar PT Masmindo</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">33b918fa901244bbec881049...</span></div>
+    </div>
+    
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Massa IPMIL membakar ban bekas di depan gerbang Kejati dan membacakan 3 poin petisi tuntutan. Perwakilan massa diterima jaksa fungsional Penkum Kejati Sulsel untuk penyerahan bundel bukti aliran rekening.
+    </p>
+  </div>
+  
+  <div class="cctv-item">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-BPKAD-LUWU-CORRIDOR</span>
+      <span class="code-text">TIMESTAMP: 08 Maret 2023 15:15:40 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Pemindahan Dokumen SP2D & Pengeluaran Cek Fiktif di Kantor BPKAD Belopa</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Kompleks Kantor Bupati Luwu, Jl. Jend. Sudirman No. 1, Belopa (Lorong Arsip Perbendaharaan BPKAD Pemkab Luwu)</p>
+    
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Drs. Muhammad Arsyad, M.Si. bersama bendahara pengeluaran pembantu</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Garmin Tactix 7 Pro Solar Ballistics Edition Black Dial</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 15:15 WITA (Garmin Tactix 7 Pro Solar di tangan pejabat BPKAD)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Toyota Innova Reborn Nopol DP 1114 F (Mobil Operasional Dinas BPKAD)</span></div>
+      <div><strong>Nominal Uang:</strong> <span style="color:#ef4444; font-weight:700;">Otorisasi Transfer RTGS Rp 7.500.000.000 ke Rekening Kerabat</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">11fe88bc204199aefc882104...</span></div>
+    </div>
+    
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Kepala BPKAD membawa berkas map merah tebal keluar dari ruang perbendaharaan menuju mobil dinas sebelum jam kantor usai. Berkas diduga merupakan dokumen asli NPHD yang disembunyikan dari auditor BPK.
+    </p>
+  </div>
+  
+  <div class="cctv-item">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-KPK-DUMAS-JAKARTA</span>
+      <span class="code-text">TIMESTAMP: 24 September 2024 14:20:15 WITA (13:20 WIB)</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Penyerahan Laporan Resmi & Bundel Bukti Forensik PP IPMIL di Gedung Merah Putih KPK</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Kuningan Persada Kav. 4, Guntur, Setiabudi, Jakarta Selatan (Lobi Pengaduan Masyarakat (Dumas) Gedung Merah Putih KPK RI)</p>
+    
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Farhan Nur Alim (Korlap Advokasi Nasional PP IPMIL) & Delegasi Mahasiswa Luwu</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Seiko 5 Sports Automatic Blue Dial & Tanda Pengenal Tamu KPK RI</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 13:20 WIB (Sinkronisasi Server Pelayanan Dumas KPK RI)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Akses Pejalan Kaki Lobi Depan Gedung Merah Putih KPK</span></div>
+      <div><strong>Nominal Uang:</strong> <span style="color:#ef4444; font-weight:700;">Penyerahan Laporan TPPU & Anomali Harta Kekayaan Pejabat Luwu Rp 67 M</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">88bc91024fa881940912bcdd...</span></div>
+    </div>
+    
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Delegasi PP IPMIL menyerahkan 4 kardus dokumen bukti mutasi bank, rekaman video cctv flashdisk, dan surat pengaduan resmi tindak pidana korupsi dana hibah PT Masmindo Dwi Area kepada petugas piket Dumas KPK RI.
+    </p>
+  </div>
+  
+
+  <div style="margin-top:40px; padding:20px; border-top:1px solid var(--border); text-align:center; color:var(--muted); font-size:12px;">
+    BERKAS DOSSIER INTELIJEN FORENSIK INI DILINDUNGI SISTEM SI-GEOINT PALOPO & LUWU RAYA • DILENGKAPI DIGITAL WATERMARK SHA-256
+  </div>
+</div>
+</body>
+</html>
